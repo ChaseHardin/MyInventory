@@ -4,4 +4,5 @@ export interface Inventory {
     price: number;
     quantity: number;
     category: string;
+    description: string;
 }

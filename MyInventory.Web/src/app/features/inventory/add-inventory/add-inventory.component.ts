@@ -10,6 +10,6 @@ export class AddInventoryComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-  }
 
+  }
 }

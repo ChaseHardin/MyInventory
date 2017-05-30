@@ -7,18 +7,24 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './features/home/home.component';
 import { TopNavComponent } from './features/top-nav/top-nav.component';
+import { InventoryComponent } from './features/inventory/inventory.component';
+import { AddInventoryComponent } from './features/inventory/add-inventory/add-inventory.component';
+import { AlertModule } from 'ng2-bootstrap/ng2-bootstrap';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    TopNavComponent
+    TopNavComponent,
+    InventoryComponent,
+    AddInventoryComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AlertModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

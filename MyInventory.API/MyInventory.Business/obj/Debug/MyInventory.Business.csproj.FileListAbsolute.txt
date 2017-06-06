@@ -1,0 +1,17 @@
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Business\bin\Debug\MyInventory.Business.dll
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Business\bin\Debug\MyInventory.Business.pdb
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Business\bin\Debug\MyInventory.Data.dll
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Business\bin\Debug\MyInventory.Data.pdb
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Business\obj\Debug\MyInventory.Business.csprojResolveAssemblyReference.cache
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Business\obj\Debug\MyInventory.Business.dll
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Business\obj\Debug\MyInventory.Business.pdb
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Business\bin\Debug\EntityFramework.dll
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Business\bin\Debug\EntityFramework.xml
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Business\bin\Debug\MyInventory.Business.dll.config
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Business\bin\Debug\AutoMapper.dll
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Business\bin\Debug\AutoMapper.xml
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Business\bin\Debug\AutoMapper.Net4.dll
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Business\bin\Debug\AutoMapper.pdb
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Business\bin\Debug\AutoMapper.Net4.pdb

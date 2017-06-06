@@ -39,3 +39,15 @@ C:\Dev\MyInventory\MyInventory.API\MyInventory.API\bin\System.Web.Http.WebHost.x
 C:\Dev\MyInventory\MyInventory.API\MyInventory.API\obj\Debug\MyInventory.API.csprojResolveAssemblyReference.cache
 C:\Dev\MyInventory\MyInventory.API\MyInventory.API\obj\Debug\MyInventory.API.dll
 C:\Dev\MyInventory\MyInventory.API\MyInventory.API\obj\Debug\MyInventory.API.pdb
+C:\Dev\MyInventory\MyInventory.API\MyInventory.API\bin\MyInventory.Business.dll
+C:\Dev\MyInventory\MyInventory.API\MyInventory.API\bin\MyInventory.Business.pdb
+C:\Dev\MyInventory\MyInventory.API\MyInventory.API\bin\EntityFramework.dll
+C:\Dev\MyInventory\MyInventory.API\MyInventory.API\bin\EntityFramework.SqlServer.dll
+C:\Dev\MyInventory\MyInventory.API\MyInventory.API\bin\EntityFramework.xml
+C:\Dev\MyInventory\MyInventory.API\MyInventory.API\bin\EntityFramework.SqlServer.xml
+C:\Dev\MyInventory\MyInventory.API\MyInventory.API\bin\MyInventory.Data.dll
+C:\Dev\MyInventory\MyInventory.API\MyInventory.API\bin\AutoMapper.dll
+C:\Dev\MyInventory\MyInventory.API\MyInventory.API\bin\MyInventory.Data.pdb
+C:\Dev\MyInventory\MyInventory.API\MyInventory.API\bin\AutoMapper.xml
+C:\Dev\MyInventory\MyInventory.API\MyInventory.API\bin\AutoMapper.Net4.dll
+C:\Dev\MyInventory\MyInventory.API\MyInventory.API\bin\AutoMapper.pdb

@@ -1,0 +1,13 @@
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Data\bin\Debug\MyInventory.Data.dll
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Data\bin\Debug\MyInventory.Data.pdb
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Data\obj\Debug\MyInventory.Data.csprojResolveAssemblyReference.cache
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Data\obj\Debug\MyInventory.Data.dll
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Data\obj\Debug\MyInventory.Data.pdb
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Data\bin\Debug\MyInventory.Data.dll.config
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Data\bin\Debug\EntityFramework.dll
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Data\bin\Debug\EntityFramework.xml
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Data\obj\Debug\MyInventory.Data.Migrations.InitInventoryTable.resources
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Data\obj\Debug\MyInventory.Data.csproj.GenerateResource.Cache
+C:\Dev\MyInventory\MyInventory.API\MyInventory.Data\obj\Debug\MyInventory.Data.Migrations.RemoveTestColumnFromInventoryTable.resources

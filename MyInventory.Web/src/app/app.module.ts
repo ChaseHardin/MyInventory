@@ -5,18 +5,25 @@ import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
+import { InventoryComponent } from './features/inventory/inventory.component';
+import {InventoryService} from "./features/inventory/inventory.service";
+import {AlertModule} from "ng2-bootstrap";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InventoryComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AlertModule.forRoot()
   ],
-  providers: [],
+  providers: [
+    InventoryService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

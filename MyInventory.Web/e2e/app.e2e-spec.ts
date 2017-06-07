@@ -1,10 +1,10 @@
-import { MyInventory.WebPage } from './app.po';
+import { MyInventoryPage } from './app.po';
 
-describe('my-inventory.web App', () => {
-  let page: MyInventory.WebPage;
+describe('my-inventory App', function() {
+  let page: MyInventoryPage;
 
   beforeEach(() => {
-    page = new MyInventory.WebPage();
+    page = new MyInventoryPage();
   });
 
   it('should display message saying app works', () => {

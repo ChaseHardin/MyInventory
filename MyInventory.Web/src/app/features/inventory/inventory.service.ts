@@ -10,4 +10,8 @@ export class InventoryService {
   getInventory() {
     return this.http.get('http://localhost:53646/api/inventory').map((res: Response) => res.json());
   }
+
+  deleteInventory(inventoryId: string) {
+    return this.http.delete(`http://localhost:53646/api/inventory/${inventoryId}`);
+  }
 }

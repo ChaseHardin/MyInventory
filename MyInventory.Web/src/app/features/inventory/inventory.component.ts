@@ -16,6 +16,13 @@ export class InventoryComponent implements OnInit {
     this.initInventory();
   }
 
+  deleteInventory(inventory: Inventory) {
+    this.service.deleteInventory(inventory.inventoryId).subscribe((res) => {
+      var index = this.inventory.indexOf(inventory);
+      this.inventory.splice(index, 1);
+    });
+  }
+
   private initInventory() {
     this.service.getInventory().subscribe(data => this.inventory = data);
   }

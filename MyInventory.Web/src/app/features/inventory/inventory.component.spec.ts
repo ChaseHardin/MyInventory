@@ -1,11 +1,11 @@
 /* tslint:disable:no-unused-variable */
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
+import {async, ComponentFixture, TestBed } from '@angular/core/testing';
+import {CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
 
-import { InventoryComponent } from './inventory.component';
+import {InventoryComponent} from './inventory.component';
 import {getMockInventory} from "./inventory.model.spec";
 import {InventoryService} from "./inventory.service";
-import { HttpModule } from "@angular/http";
+import {HttpModule} from "@angular/http";
 
 describe('InventoryComponent', () => {
   let component: InventoryComponent;
@@ -13,16 +13,16 @@ describe('InventoryComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ InventoryComponent ],
+      declarations: [InventoryComponent],
       providers: [
         InventoryService,
       ],
       imports: [
         HttpModule
       ],
-      schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
+      schemas: [CUSTOM_ELEMENTS_SCHEMA]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
@@ -49,4 +49,17 @@ describe('InventoryComponent', () => {
     expect(fixture.nativeElement.querySelector('[name=quantity]').textContent).toEqual(inventory[0].quantity.toString());
     expect(fixture.nativeElement.querySelector('[name=category]').textContent).toEqual(inventory[0].category.toString());
   });
+
+  it('should delete inventory on button click', async(() => {
+    var initialInventory = getMockInventory();
+    fixture.componentInstance.inventory = getMockInventory();
+    fixture.detectChanges();
+
+    fixture.nativeElement.querySelector('[name=deleteButton]').click();
+    fixture.detectChanges();
+
+    fixture.whenStable().then(() => {
+      expect(fixture.componentInstance.inventory.length).toEqual(initialInventory.length - 1);
+    });
+  }));
 });

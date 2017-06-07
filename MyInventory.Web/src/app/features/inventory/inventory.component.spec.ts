@@ -49,14 +49,4 @@ describe('InventoryComponent', () => {
     expect(fixture.nativeElement.querySelector('[name=quantity]').textContent).toEqual(inventory[0].quantity.toString());
     expect(fixture.nativeElement.querySelector('[name=category]').textContent).toEqual(inventory[0].category.toString());
   });
-
-  it('should have styled button with appropriate text', () => {
-    let inventory = getMockInventory();
-    fixture.componentInstance.inventory = inventory;
-    fixture.detectChanges();
-
-    expect(fixture.nativeElement.querySelector('[name=selectBtn] button').classList.toString()).toEqual('btn btn-primary');
-    expect(fixture.nativeElement.querySelector('[name=selectBtn] button i').classList.toString()).toEqual('glyphicon glyphicon-plus');
-    expect(fixture.nativeElement.querySelector('[name=selectBtn] button').textContent).toEqual(' Add');
-  });
 });

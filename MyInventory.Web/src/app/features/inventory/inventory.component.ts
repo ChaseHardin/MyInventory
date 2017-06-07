@@ -13,6 +13,10 @@ export class InventoryComponent implements OnInit {
   constructor(private service: InventoryService) { }
 
   ngOnInit() {
+    this.initInventory();
+  }
+
+  private initInventory() {
     this.service.getInventory().subscribe(data => this.inventory = data);
   }
 }

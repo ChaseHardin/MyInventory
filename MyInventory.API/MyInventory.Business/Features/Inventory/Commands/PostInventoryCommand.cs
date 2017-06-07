@@ -5,7 +5,7 @@ namespace MyInventory.Business.Features.Inventory.Commands
 {
     public class PostInventoryCommand
     {
-        private InventoryViewModel _inventory;
+        private readonly InventoryViewModel _inventory;
         
         public PostInventoryCommand(InventoryViewModel inventory)
         {

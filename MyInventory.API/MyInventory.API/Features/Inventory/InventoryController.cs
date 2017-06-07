@@ -1,4 +1,5 @@
-﻿using System.Web.Http;
+﻿using System;
+using System.Web.Http;
 using MyInventory.Business.Features.Inventory;
 using MyInventory.Business.Features.Inventory.Commands;
 
@@ -17,6 +18,12 @@ namespace MyInventory.API.Features.Inventory
         public virtual IHttpActionResult Post(InventoryViewModel inventory)
         {
             return Created(Request.RequestUri.PathAndQuery, new PostInventoryCommand(inventory).Execute());
+        }
+
+        [HttpPut, Route("{inventoryId}")]
+        public virtual IHttpActionResult Put(Guid inventoryId, InventoryViewModel inventory)
+        {
+            return Ok(new PutInventoryCommand(inventoryId, inventory).Execute());
         }
     }
 }

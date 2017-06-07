@@ -88,6 +88,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>PostInventory.feature</DependentUpon>
     </Compile>
+    <Compile Include="Features\Inventory\PutInventory.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PutInventory.feature</DependentUpon>
+    </Compile>
     <Compile Include="Infrastructure\JsonGetter.cs" />
     <Compile Include="Infrastructure\Substituter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -104,6 +109,10 @@
     <None Include="Features\Inventory\PostInventory.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>PostInventory.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\Inventory\PutInventory.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>PutInventory.feature.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
   </ItemGroup>

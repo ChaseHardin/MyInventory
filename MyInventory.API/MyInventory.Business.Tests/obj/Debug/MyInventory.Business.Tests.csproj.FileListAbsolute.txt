@@ -15,4 +15,3 @@ C:\Dev\MyInventory\MyInventory.API\MyInventory.Business.Tests\bin\Debug\AutoMapp
 C:\Dev\MyInventory\MyInventory.API\MyInventory.Business.Tests\bin\Debug\MyInventory.Business.Tests.dll.config
 C:\Dev\MyInventory\MyInventory.API\MyInventory.Business.Tests\bin\Debug\EntityFramework.SqlServer.dll
 C:\Dev\MyInventory\MyInventory.API\MyInventory.Business.Tests\bin\Debug\EntityFramework.SqlServer.xml
-C:\Dev\MyInventory\MyInventory.API\MyInventory.Business.Tests\bin\Debug\AutoMapper.Net4.dll

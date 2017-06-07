@@ -64,6 +64,7 @@
     <Compile Include="Features\Inventory\PostInventoryCommandExecuteTests.cs" />
     <Compile Include="Features\Inventory\PutInventoryCommandExecuteTests.cs" />
     <Compile Include="Features\Inventory\DeleteInventoryCommandExecuteTests.cs" />
+    <Compile Include="Features\Inventory\GetInventoryByIdCommandExecuteTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

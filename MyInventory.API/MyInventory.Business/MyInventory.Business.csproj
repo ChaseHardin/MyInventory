@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Features\Inventory\Commands\DeleteInventoryCommand.cs" />
+    <Compile Include="Features\Inventory\Commands\GetInventoryByIdCommand.cs" />
     <Compile Include="Features\Inventory\Commands\GetInventoryCommand.cs" />
     <Compile Include="Features\Inventory\Commands\PutInventoryCommand.cs" />
     <Compile Include="Features\Inventory\InventoryViewModel.cs" />

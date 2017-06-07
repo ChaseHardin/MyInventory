@@ -8,11 +8,14 @@ import { AppComponent } from './app.component';
 import { InventoryComponent } from './features/inventory/inventory.component';
 import {InventoryService} from "./features/inventory/inventory.service";
 import {AlertModule} from "ng2-bootstrap";
+import { InventoryEditComponent } from './features/inventory/inventory-edit/inventory-edit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    InventoryComponent
+    InventoryComponent,
+    InventoryEditComponent,
+    InventoryEditComponent
   ],
   imports: [
     BrowserModule,

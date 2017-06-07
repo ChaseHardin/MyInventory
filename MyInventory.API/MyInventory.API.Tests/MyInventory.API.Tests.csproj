@@ -88,6 +88,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>GetInventory.feature</DependentUpon>
     </Compile>
+    <Compile Include="Features\Inventory\GetInventoryById.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GetInventoryById.feature</DependentUpon>
+    </Compile>
     <Compile Include="Features\Inventory\PostInventory.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -114,6 +119,10 @@
     <None Include="Features\Inventory\GetInventory.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>GetInventory.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\Inventory\GetInventoryById.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GetInventoryById.feature.cs</LastGenOutput>
     </None>
     <None Include="Features\Inventory\PostInventory.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>

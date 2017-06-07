@@ -14,4 +14,8 @@ export class InventoryService {
   deleteInventory(inventoryId: string) {
     return this.http.delete(`http://localhost:53646/api/inventory/${inventoryId}`);
   }
+
+  getInventoryById(inventoryId: string) {
+    return this.http.get(`http://localhost:53646/api/inventory/${inventoryId}`).map((res: Response) => res.json());
+  }
 }

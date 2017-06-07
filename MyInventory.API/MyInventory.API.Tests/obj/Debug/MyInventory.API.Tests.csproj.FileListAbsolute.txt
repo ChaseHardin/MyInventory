@@ -24,4 +24,3 @@ C:\Dev\MyInventory\MyInventory.API\MyInventory.API.Tests\bin\Debug\AutoMapper.dl
 C:\Dev\MyInventory\MyInventory.API\MyInventory.API.Tests\bin\Debug\MyInventory.Business.pdb
 C:\Dev\MyInventory\MyInventory.API\MyInventory.API.Tests\bin\Debug\AutoMapper.pdb
 C:\Dev\MyInventory\MyInventory.API\MyInventory.API.Tests\bin\Debug\AutoMapper.xml
-C:\Dev\MyInventory\MyInventory.API\MyInventory.API.Tests\bin\Debug\AutoMapper.Net4.dll

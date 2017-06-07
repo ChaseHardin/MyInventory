@@ -14,6 +14,12 @@ namespace MyInventory.API.Features.Inventory
             return Ok(new GetInventoryCommand().Execute());
         }
 
+        [HttpGet, Route("{inventoryId}")]
+        public virtual IHttpActionResult GetById(Guid inventoryId)
+        {
+            return Ok(new GetInventoryByIdCommand(inventoryId).Execute());
+        }
+
         [HttpPost, Route("")]
         public virtual IHttpActionResult Post(InventoryViewModel inventory)
         {

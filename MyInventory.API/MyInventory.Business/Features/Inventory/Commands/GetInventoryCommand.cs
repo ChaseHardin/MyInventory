@@ -2,7 +2,7 @@
 using System.Linq;
 using MyInventory.Data.Infrastructure;
 
-namespace MyInventory.Business.Features.Inventory
+namespace MyInventory.Business.Features.Inventory.Commands
 {
     public class GetInventoryCommand
     {

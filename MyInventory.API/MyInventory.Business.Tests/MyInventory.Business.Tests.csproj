@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="Data\Inventory\Inventory1234.cs" />
     <Compile Include="Features\Inventory\GetInventoryCommandExecuteTests.cs" />
+    <Compile Include="Features\Inventory\PostInventoryCommandExecuteTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

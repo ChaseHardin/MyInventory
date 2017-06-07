@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MyInventory.Business.Features.Inventory;
+using MyInventory.Business.Features.Inventory.Commands;
 using MyInventory.Business.Tests.Data.Inventory;
 using MyInventory.Data.Infrastructure;
 

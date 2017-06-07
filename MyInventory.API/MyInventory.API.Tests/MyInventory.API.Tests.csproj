@@ -78,6 +78,11 @@
   <ItemGroup>
     <Compile Include="Context\HttpContext.cs" />
     <Compile Include="Context\MyInventoryFeatureContext.cs" />
+    <Compile Include="Features\Inventory\DeleteInventory.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DeleteInventory.feature</DependentUpon>
+    </Compile>
     <Compile Include="Features\Inventory\GetInventory.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -102,6 +107,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Features\Inventory\DeleteInventory.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>DeleteInventory.feature.cs</LastGenOutput>
+    </None>
     <None Include="Features\Inventory\GetInventory.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>GetInventory.feature.cs</LastGenOutput>

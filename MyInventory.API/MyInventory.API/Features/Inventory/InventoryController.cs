@@ -25,5 +25,11 @@ namespace MyInventory.API.Features.Inventory
         {
             return Ok(new PutInventoryCommand(inventoryId, inventory).Execute());
         }
+
+        [HttpDelete, Route("{inventoryId}")]
+        public virtual IHttpActionResult Delete(Guid inventoryId)
+        {
+            return Ok(new DeleteInventoryCommand(inventoryId).Execute());
+        }
     }
 }

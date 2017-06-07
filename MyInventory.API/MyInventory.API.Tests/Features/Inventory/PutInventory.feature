@@ -1,6 +1,6 @@
 ﻿Feature: PutInventory
 
-Scenario: Should update movie with a response of 200
+Scenario: Should update inventory with a response of 200
 	Given inventory exists
 	When I PUT 'api/inventory/{inventoryId}' with the following:
 	"""

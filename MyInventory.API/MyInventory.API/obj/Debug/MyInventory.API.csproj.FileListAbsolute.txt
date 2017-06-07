@@ -50,3 +50,4 @@ C:\Dev\MyInventory\MyInventory.API\MyInventory.API\bin\AutoMapper.dll
 C:\Dev\MyInventory\MyInventory.API\MyInventory.API\bin\MyInventory.Data.pdb
 C:\Dev\MyInventory\MyInventory.API\MyInventory.API\bin\AutoMapper.xml
 C:\Dev\MyInventory\MyInventory.API\MyInventory.API\bin\AutoMapper.pdb
+C:\Dev\MyInventory\MyInventory.API\MyInventory.API\bin\AutoMapper.Net4.dll

@@ -3,6 +3,7 @@ import {InventoryService} from "../inventory.service";
 import {ActivatedRoute, Params} from "@angular/router";
 import {Inventory} from "../inventory.model";
 
+
 @Component({
   selector: 'app-inventory-edit',
   templateUrl: './inventory-edit.component.html',
@@ -17,6 +18,10 @@ export class InventoryEditComponent implements OnInit {
   ngOnInit() {
     this.initInventoryId();
     this.getInventory();
+  }
+
+  updateInventory(){
+    this.service.updateInventory(this.inventory).subscribe(inventory => this.inventory = inventory);
   }
 
   private getInventory() {

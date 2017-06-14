@@ -22,7 +22,7 @@ import { InventoryEditComponent } from './features/inventory/inventory-edit/inve
     FormsModule,
     HttpModule,
     AppRoutingModule,
-    AlertModule.forRoot()
+    AlertModule.forRoot(),
   ],
   providers: [
     InventoryService

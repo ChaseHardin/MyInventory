@@ -1,9 +1,6 @@
-/* tslint:disable:no-unused-variable */
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { By } from '@angular/platform-browser';
-import { DebugElement } from '@angular/core';
-
 import { InventoryEditComponent } from './inventory-edit.component';
+import {getMockInventory} from "../inventory.model.spec";
 
 describe('InventoryEditComponent', () => {
   let component: InventoryEditComponent;
@@ -24,5 +21,11 @@ describe('InventoryEditComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+
+  it('should bind data on form', () => {
+    fixture.componentInstance.inventory = getMockInventory()[0];
+    fixture.detectChanges();
+
   });
 });

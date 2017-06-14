@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
-import { Http, Response } from '@angular/http';
+import {Http, Response, Headers, RequestOptions} from '@angular/http';
 import 'rxjs/add/operator/map';
+import {Inventory} from "./inventory.model";
 
 @Injectable()
 export class InventoryService {
@@ -17,5 +18,13 @@ export class InventoryService {
 
   getInventoryById(inventoryId: string) {
     return this.http.get(`http://localhost:53646/api/inventory/${inventoryId}`).map((res: Response) => res.json());
+  }
+
+  updateInventory(inventory: Inventory) {
+    debugger;
+    let headers = new Headers ({ 'Content-Type': 'application/json' });
+    let options = new RequestOptions({ headers: headers });
+    let body = JSON.stringify(inventory);
+    return this.http.put(`http://localhost:53646/api/inventory/${inventory.inventoryId}`, body, options ).map((res: Response) => res.json());
   }
 }

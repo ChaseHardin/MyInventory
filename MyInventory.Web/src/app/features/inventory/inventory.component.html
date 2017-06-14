@@ -20,7 +20,7 @@
           <td name="category">{{ item.category }}</td>
           <td style="width: 200px;">
             <button name="editButton" type="button" class="btn btn-primary btn-sm" [routerLink]="['edit', item.inventoryId]"><i class="glyphicon glyphicon-edit"></i> Edit</button>
-            <button name="deleteButton" type="button" class="btn btn-danger btn-sm" (click)="deleteInventory(items)"><i
+            <button name="deleteButton" type="button" class="btn btn-danger btn-sm" (click)="deleteInventory(item)"><i
               class="glyphicon glyphicon-trash"></i> Delete
             </button>
           </td>
